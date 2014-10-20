@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapper {width:100%;overflow: hidden;padding: 5px auto;}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#contorno{
+	
+    margin: 0 auto;
+	width:950px;
+	height:2050px;
+    background-color:rgba(204,204,204,1);
+	background-image:url(../imagenes/fondo-pagina20.jpg);
+	background-repeat: x;
+	
+	}
+
+#cabecera{
+	
+    margin: 0 auto;
+    width:98%;
+	height:200px;
+	position: relative;
+	background-color:rgba(0,51,255,0.2);
+	border-radius:10px;
+	
+	}
+#logo{
+    
+    display:block;
+    background:url(../imagenes/Log.PNG) 0 0 no-repeat;
+    width:144px;
+    height:94px;
+    }
+
+#barramenu{
+	
+    margin: auto auto;
+	width:98%;
+	height:35px;
+	background-color:rgba(0,255,255,0.4);
+	border-radius:15px;
+    
+	}
+	
+#menu1{
+	
+	width: 100px;
+	height: 90%;
+	background-color: rgba(179, 179, 255, 1);
+	margin-left:400px;
+	border-radius: 3px;
+	margin-top:2px;
+	float:left;
+	margin-bottom: 2px;
+	
+	}
+	
+#menu2{
+	
+	width: 100px;
+	height: 90%;
+	background-color: rgba(179, 179, 255, 1);
+	margin-left:4px;
+	border-radius: 3px;
+	margin-top:2px;
+	float:left;
+	margin-bottom: 2px;
+	
+	}
+	
+#contornocentro{
+	
+	width:1300px;
+	height:1700px;
+	background-color:rgba(0,153,102,0.3);
+	border-radius:10PX;
+	margin-left:20px;
+	margin-top:100px;
+	
+	}
+	
+#izquierda{
+	width:300px;
+	height:1650px;
+	background-color:rgba(153,153,153,0.3);
+	float:left;
+	margin-left:20px;
+	margin-top:10px; 
+	border-radius:10px;
+	}
+	
+#password{
+
+	width:300px;
+	height:360px;
+	background-color:rgba(153,153,153,0.8);
+	float:left;
+	border-radius:10px;
+
+}
+
+	
+#publicidad{
+
+	width:300px;
+	height:590px;
+	background-color:rgba(153,153,153,0.8);
+	float:left;
+	border-radius:10px;
+	margin-top:50px;
+
+}
+
+
+#derecha{
+	
+	width:950px;
+	height:1650px;
+	background-color:rgba(153,153,153,0.3);
+	float:right;
+	margin-right::40px;
+	margin-top:10px; 
+	border-radius:10px;
+
+}
+
+#imagenesderecha{
+		
+	width:900px;
+	height:1000px;
+	background-color:rgba(153,153,153,0.5);
+	float:left;
+	margin-left:40px;	
+	border-radius:10px;
+	
+	
+}
+	
+	
+	
+	
+	
+	
+	
