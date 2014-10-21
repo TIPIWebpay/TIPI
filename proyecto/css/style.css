@@ -6,7 +6,54 @@
     Purpose of the stylesheet follows.
     To change this template use Tools | Templates.
 */
+body{
+	background: #CCC;
+	font-family: Helvetica, Arial;
+	font-size: 16px;
+}
+
+footer
+{
+	font-size: .8em;
+	font-style: italic;
+}
+
+nav li a
+{
+	background-color: #000;
+	color: :#fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+
+}
+
+nav#menu-principal ul li{
+	background: #00008B;
+	border-radius: .5em;
+	color: #FFF;
+	display: inline-block;
+	padding: .5em;
+}
+
+nav#menu-principal ul li:hover
+{
+	background: #000;
+	box-shadow: 0 4px 6px rgba(0,0,139,.7);
+	cursor: pointer;
+}
+
+nav#menu-principal ul li a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+ul, ol
+{
+	list-style: none;
+}
 
 root {
     display: block;
+
 }
